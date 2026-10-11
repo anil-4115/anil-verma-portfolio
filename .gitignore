@@ -1,0 +1,38 @@
+# Local environment and secrets
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.ppk
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# Editor / IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs, temp files, and Office lock files
+*.log
+*.tmp
+~$*
+
+# Unpublished / local-only content (kept out of the public repository)
+ASSET_AUDIT.md
+STAGE1_CHECKS.txt
+STAGE2_STATUS.md
+assets/certificates/source-anthropic/
+assets/certificates/source-other/
+assets/images/profile/profile-outdoor-1.jpg
+assets/images/reference-screens/
+assets/images/projects/README.txt
+assets/images/hobbies/README.txt
+assets/resume/README.txt

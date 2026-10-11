@@ -1,0 +1,5 @@
+/* Motion is decorative and respects the visitor's reduced-motion preference. */
+@keyframes rise-in{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@keyframes slow-drift{0%,100%{transform:rotate(-22deg) translateY(0)}50%{transform:rotate(-19deg) translateY(-5px)}}
+.hero-copy,.page-hero,.section-heading{animation:rise-in .55s var(--ease) both}.hero-visual{animation:rise-in .7s var(--ease) .08s both}.hero-photo-frame{transition:transform .3s var(--ease)}.hero-photo-frame:hover{transform:rotate(0deg) translateY(-3px)}.orbit-one{animation:slow-drift 8s ease-in-out infinite}.orbit-two{animation:slow-drift 10s ease-in-out infinite reverse}.project-card,.skill-preview,.learning-card,.contact-method,.hobby-card,.certificate-card{will-change:transform}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important;will-change:auto!important}}
