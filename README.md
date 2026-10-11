@@ -4,7 +4,7 @@
 
 A responsive, multi-page personal portfolio built entirely with HTML and CSS. It presents my software engineering background, selected projects, technical skills, certifications, and interests — with no JavaScript and no build step required.
 
-**Live website:** [anil-4115.github.io/anil-verma-portfolio](https://anil-4115.github.io/anil-verma-portfolio/)
+**Live website:** [anil-4115.github.io/anil-verma-portfolio](https://anil-verma-portfolio.vercel.app/)
 
 ---
 
